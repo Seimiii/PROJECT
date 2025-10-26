@@ -17,17 +17,17 @@ public class Menu {
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
 
-        System.out.print(YELLOW + "  ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗    ████████╗ ██████╗      ██████╗ ██╗   ██╗██████╗ \n");
-        System.out.print("  ██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝    ╚══██╔══╝██╔═══██╗    ██╔═══██╗██║   ██║██╔══██╗ \n");
-        System.out.print("  ██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗         ██║   ██║   ██║    ██║   ██║██║   ██║██████╔╝ \n");
-        System.out.print("  ██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝         ██║   ██║   ██║    ██║   ██║██║   ██║██╔══██╗ \n");
-        System.out.print("  ╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗       ██║   ╚██████╔╝    ╚██████╔╝╚██████╔╝██║  ██║ \n");
-        System.out.print("   ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝       ╚═╝    ╚═════╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ \n" + RESET );
+        System.out.print(YELLOW + "  ██╗    ██╗   ███████╗  ██╗        ██████╗   ██████╗   ███╗   ███╗  ███████╗     ████████╗   ██████╗      ██████╗   ██╗   ██╗  ██████╗   \n");
+        System.out.print("           ██║    ██║   ██╔════╝  ██║       ██╔════╝  ██╔═══██╗  ████╗ ████║  ██╔════╝     ╚══██╔══╝  ██╔═══██╗    ██╔═══██╗  ██║   ██║  ██╔══██╗  \n");
+        System.out.print("           ██║ █╗ ██║   █████╗    ██║       ██║       ██║   ██║  ██╔████╔██║  █████╗          ██║     ██║   ██║    ██║   ██║  ██║   ██║  ██████╔╝  \n");
+        System.out.print("           ██║███╗██║   ██╔══╝    ██║       ██║       ██║   ██║  ██║╚██╔╝██║  ██╔══╝          ██║     ██║   ██║    ██║   ██║  ██║   ██║  ██╔══██╗  \n");
+        System.out.print("           ╚███╔███╔╝   ███████╗  ███████╗  ╚██████╗  ╚██████╔╝  ██║ ╚═╝ ██║  ███████╗        ██║     ╚██████╔╝    ╚██████╔╝  ╚██████╔╝  ██║  ██║  \n");
+        System.out.print("            ╚══╝╚══╝    ╚══════╝  ╚══════╝   ╚═════╝   ╚═════╝   ╚═╝     ╚═╝  ╚══════╝        ╚═╝      ╚═════╝      ╚═════╝    ╚═════╝   ╚═╝  ╚═╝  \n" + RESET );
         		 
         		                                                                   
        
-        System.out.println(PURPLE + "   ************************************************MENU-DRIVEN SYSTEM!**********************************************" + RESET);
-        System.out.println(BLUE + "                                               ^APPLICATION IS NOW LOADING^: " + RESET);
+        System.out.println(PURPLE + "       ************************************************MENU-DRIVEN SYSTEM!**********************************************" + RESET);
+        System.out.println(BLUE + "                                                 THE APPLICATION IS NOW LOADING..." + RESET);
 
         for (int i = 0; i < 20; i++) {
             Thread.sleep(100);
@@ -40,94 +40,99 @@ public class Menu {
         	
         	
         	
-        
-        	System.out.print(YELLOW +"                                          ⣠⡴⡾⠛⠛⠛⡲⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 ⣠⣾⠳⠃⢀⣠⣤⣀⠀⠑⡙⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 ⢈⣾⡇⠃⡰⡋⠄⠀⠈⢳⡄⠘⢨⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                  ⠸⣯⡗⠄⣧⠀⣠⣔⣖⣤⣇⠰⢘⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀  ⢿⣞⢵⡈⠻⢥⢤⠴⢊⡙⣯⣷⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀  ⠈⠻⣧⣍⢆⣀⡀⠂⢄⣪⠖⠙⡦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀⠀  ⠙⣿⢶⠿⣟⠋⠁⠀⠡⠹⡵⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                   ⡰⡛⣩⠩⠚⣄⣀⠀⠡⣀⢹⢃⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                ⢠⢦⠶⠴⡤⠶⢖⠲⠞⠙⠈⠈⠀⠀⠀⠀⠈⠁⠉⠘⣹⠏⡈⠉⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                ⠀⢸⣧⣟⡤⣃⣻⢃⡀⠀⢀⠀⡀⢀⠀⣀⠀⡀⢀⢀⣀⣻⠄⠃⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀                  ⢸⡷⠾⣷⣿⣷⣷⣻⣟⡻⣟⡻⣞⣿⣛⢿⡻⠟⡻⢿⣿⠛⠛⠛⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                ⠈⠉⠙⠳⠿⣵⠛⡇⢁⣢⡴⠡⢬⠾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀                  ⢸⠄⣳⠌⢸⣁⡴⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                  ⢸⡃⢼⠀⢸⡏⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                  ⢸⡁⢸⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 ⢀⣼⡇⢸⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 ⣴⡛⢹⡇⢸⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 ⢀⣠⢴⡖⠀⠀⠀⡀⣾⠋⠀⢸⡇⢹⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠈⢯⠑⠶⡤⣀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀                ⢀⣤⡾⠏⠁⢸⠃⠀⠀⠐⣜⡅⠠⠀⢸⡇⢺⡇⠀⣿⠀⠀⠀⠀⠀⠐⠈⠐⠘⡆⡄⠙⣤⡙⠦⡀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀                ⣠⣶⢻⡜⠁⠀⠀⡿⠀⠀⠀⠡⣯⠀⠀⠀⢸⠇⣹⡇⠀⢹⠀⠀⠀⠀⠀⠀⠐⠀⠀⡇⠀⠀⠈⣆⠅⠈⠳⣄⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀               ⣠⣾⢻⣜⡏⠀⠀⠀⠀⣟⠀⠀⠈⠁⡾⠀⠀⠀⣸⠃⣸⡇⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⢀⠀⠸⡐⢀⣌⡊⢣⡀\n");
-            System.out.print("⠀⠀               ⢠⣟⣞⣯⢾⣐⢢⢲⣤⡀⣿⠀⠀⠐⢂⢳⣆⠂⠀⣾⠁⢴⡇⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⢨⢃⡔⣿⠀⠀⡇⠃⢿⡍⠓⠷\n");
-            System.out.print("⠀⠀               ⣿⣞⡇⣏⠦⣹⡇⠹⣿⡄⠀⠀⠀⠀⠱⣷⣄⡏⡐⢸⡇⠀⠀⢿⠀⠀⠀⠀⠀⢀⠀⠸⠋⠀⢸⠀⢰⡇⢠⢸⡗⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀               ⣿⡾⣽⢡⣚⠹⣇⠀⠈⠀⠀⠀⠀⠑⢡⠀⣹⠺⢶⣭⡧⣀⡀⢸⣆⠀⠀⠀⠀⠀⠊⠀⡇⠀⡼⢀⢾⡅⢀⢸⠇⠀⠀\n");
-            System.out.print("⠀⠀⠀      ⠀          ⠸⣿⡽⣇⢪⢓⣻⣄⠀⠀⠀⠀⠀⠀⡀⣠⡏⠱⢂⣞⡏⠉⠉⠓⠳⣾⡣⠦⢦⡠⣀⠀⣡⠜⢁⣾⠣⠀⢇⡟⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀       ⠀⠀         ⢻⣟⡿⣷⡕⢆⣛⠷⣤⣀⣀⣀⣠⠶⡋⠔⡡⠆⣯⡇⠀⠀⠀⠀⠈⠙⠒⠶⠾⠓⠊⢁⢴⡽⢡⢂⢍⠞⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀     ⠀⠀           ⠙⣿⣽⣻⢷⣅⡻⣰⢩⢍⠣⢆⡓⠬⡑⠦⡑⣮⣧⢀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢴⠽⢋⢔⢄⡵⠋⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀      ⠀⠀⠀          ⠙⣿⣯⡟⣿⣷⢫⣮⠓⣬⡜⢡⠙⣴⢱⡏⣿⠀⡄⠀⠀⠀⠀⢠⣴⡟⠊⠁⡔⣤⢻⠉⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀        ⠀⠀⠀         ⠙⠻⢷⣯⣟⡾⣿⢦⣷⣉⣳⢤⡿⣹⢿⠀⢂⠀⣄⡴⠞⠋⠁⣠⡤⠗⠋⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠈⠙⠛⠿⣿⣾⣽⣻⣾⣝⣳⢿⢀⡴⠚⠁⠀⡠⠔⡋⠅⠂⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀⠀          ⠉⠛⢷⣯⣟⣯⣿⠎⠀⢀⠴⠋⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠈⠻⣯⣿⠀⡰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠘⢿⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
-            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                  ⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" + RESET );
-        			
-            
-            System.out.print(GREEN +"   ████████  █████  ██████   █████  ██     ██     ██ ███████      █████  ██████  ███████     ████████ ██   ██ ███████ \n");
-            System.out.print("      ██    ██   ██ ██   ██ ██   ██ ██     ██     ██ ██          ██   ██ ██   ██ ██             ██    ██   ██ ██      \n");
-            System.out.print("      ██    ███████ ██   ██ ███████ ██     ██  █  ██ █████       ███████ ██████  █████          ██    ███████ █████   \n");
-            System.out.print("      ██    ██   ██ ██   ██ ██   ██        ██ ███ ██ ██          ██   ██ ██   ██ ██             ██    ██   ██ ██      \n");
-            System.out.print("      ██    ██   ██ ██████  ██   ██ ██      ███ ███  ███████     ██   ██ ██   ██ ███████        ██    ██   ██ ███████ \n");
-            System.out.print("                                                                                                                   \n"); 
-            System.out.print(GREEN +"  ██╗           ██╗ █████╗ ██╗   ██╗ █████╗ ███╗   ██╗ ██████╗██╗  ██╗ ██████╗ ██████╗       ██╗\n");
-            System.out.print("  ╚██╗          ██║██╔══██╗██║   ██║██╔══██╗████╗  ██║██╔════╝██║  ██║██╔═══██╗██╔══██╗     ██╔╝\n");
-            System.out.print("   ╚██╗         ██║███████║██║   ██║███████║██╔██╗ ██║██║     ███████║██║   ██║██████╔╝    ██╔╝ \n");
-            System.out.print("   ██╔╝    ██   ██║██╔══██║╚██╗ ██╔╝██╔══██║██║╚██╗██║██║     ██╔══██║██║   ██║██╔══██╗    ╚██╗ \n");
-            System.out.print("  ██╔╝     ╚█████╔╝██║  ██║ ╚████╔╝ ██║  ██║██║ ╚████║╚██████╗██║  ██║╚██████╔╝██║  ██║     ╚██╗\n");
-            System.out.print("  ╚═╝       ╚════╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝      ╚═╝\n" + RESET ); 
-            
-            		                                                                                       
         	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+            System.out.print(GREEN +"                                                                                                                                   \n");
+            System.out.print("                                                                                                                                          \n");
+            System.out.print("             ████████   █████   ██████    █████   ██     ██     ██  ███████    █████   ██████   ███████    ████████  ██   ██  ███████     \n");
+            System.out.print("                ██     ██   ██  ██   ██  ██   ██  ██     ██     ██  ██        ██   ██  ██   ██  ██            ██     ██   ██  ██          \n");
+            System.out.print("                ██     ███████  ██   ██  ███████  ██     ██  █  ██  █████     ███████  ██████   █████         ██     ███████  █████       \n");
+            System.out.print("                ██     ██   ██  ██   ██  ██   ██         ██ ███ ██  ██        ██   ██  ██   ██  ██            ██     ██   ██  ██          \n");
+            System.out.print("                ██     ██   ██  ██████   ██   ██  ██      ███ ███   ███████   ██   ██  ██   ██  ███████       ██     ██   ██  ███████     \n");
+            System.out.print("                                                                                                                                          \n"); 
+            System.out.print(GREEN +"             ██╗            ██╗   █████╗   ██╗   ██╗   █████╗   ███╗   ██╗   ██████╗  ██╗  ██╗  ██████╗  ██████╗          ██╗      \n");
+            System.out.print("                     ╚██╗          ██║  ██╔══██╗  ██║   ██║  ██╔══██╗  ████╗  ██║  ██╔════╝  ██║  ██║ ██╔═══██╗ ██╔══██╗       ██╔╝       \n");
+            System.out.print("                       ╚██╗        ██║  ███████║  ██║   ██║  ███████║  ██╔██╗ ██║  ██║       ███████║ ██║   ██║ ██████╔╝     ██╔╝         \n");
+            System.out.print("                       ██╔╝    ██  ██║  ██╔══██║  ╚██╗ ██╔╝  ██╔══██║  ██║╚██╗██║  ██║       ██╔══██║ ██║   ██║ ██╔══██╗      ╚██╗        \n");
+            System.out.print("                     ██╔╝     ╚█████╔╝  ██║  ██║   ╚████╔╝   ██║  ██║  ██║ ╚████║  ╚██████╗  ██║  ██║ ╚██████╔╝ ██║  ██║        ╚██╗      \n");
+            System.out.print("                    ╚═╝        ╚════╝   ╚═╝  ╚═╝    ╚═══╝    ╚═╝  ╚═╝  ╚═╝  ╚═══╝   ╚═════╝  ╚═╝  ╚═╝  ╚═════╝  ╚═╝  ╚═╝          ╚═╝     \n" + RESET ); 
+            
+            System.out.print(YELLOW +"                                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                                      \n");
+        	System.out.print( "                                                                    ⣠⡴⡾⠛⠛⠛⡲⢦⣀                                                        \n");
+        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                             ⣠⣾⠳⠃⢀⣠⣤⣀⠀⠑⡙⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                          \n");
+        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                             ⢈⣾⡇⠃⡰⡋⠄⠀⠈⢳⡄⠘⢨⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+        	System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                              ⠸⣯⡗⠄⣧⠀⣠⣔⣖⣤⣇⠰⢘⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀                              ⢿⣞⢵⡈⠻⢥⢤⠴⢊⡙⣯⣷⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀                               ⠈⠻⣧⣍⢆⣀⡀⠂⢄⣪⠖⠙⡦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ⠀⠀⠀                                ⠙⣿⢶⠿⣟⠋⠁⠀⠡⠹⡵⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                               \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                  ⡰⡛⣩⠩⠚⣄⣀⠀⠡⣀⢹⢃⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                              \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                           ⢠⢦⠶⠴⡤⠶⢖⠲⠞⠙⠈⠈⠀⠀⠀⠀⠈⠁⠉⠘⣹⠏⡈⠉⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                ⠀                           ⢸⣧⣟⡤⣃⣻⢃⡀⠀⢀⠀⡀⢀⠀⣀⠀⡀⢀⢀⣀⣻⠄⠃⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀                                             ⢸⡷⠾⣷⣿⣷⣷⣻⣟⡻⣟⡻⣞⣿⣛⢿⡻⠟⡻⢿⣿⠛⠛⠛⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀                                \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                           ⠈⠉⠙⠳⠿⣵⠛⡇⢁⣢⡴⠡⢬⠾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀                                         ⢸⠄⣳⠌⢸⣁⡴⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                    \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                         ⢸⡃⢼⠀⢸⡏⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                     \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                         ⢸⡁⢸⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                      \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                         ⢀⣼⡇⢸⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                     \n");
+            System.out.print( "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                         ⣴⡛⢹⡇⢸⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                     \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                         ⢀⣠⢴⡖⠀⠀⠀⡀⣾⠋⠀⢸⡇⢹⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠈⢯⠑⠶⡤⣀⠀⠀⠀⠀⠀⠀⠀                                    \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀                                        ⢀⣤⡾⠏⠁⢸⠃⠀⠀⠐⣜⡅⠠⠀⢸⡇⢺⡇⠀⣿⠀⠀⠀⠀⠀⠐⠈⠐⠘⡆⡄⠙⣤⡙⠦⡀⠀⠀⠀⠀                                   \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀                                        ⣠⣶⢻⡜⠁⠀⠀⡿⠀⠀⠀⠡⣯⠀⠀⠀⢸⠇⣹⡇⠀⢹⠀⠀⠀⠀⠀⠀⠐⠀⠀⡇⠀⠀⠈⣆⠅⠈⠳⣄⠀⠀                                    \n");
+            System.out.print("⠀⠀⠀⠀                                       ⣠⣾⢻⣜⡏⠀⠀⠀⠀⣟⠀⠀⠈⠁⡾⠀⠀⠀⣸⠃⣸⡇⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⢀⠀⠸⡐⢀⣌⡊⢣⡀                                    \n");
+            System.out.print("⠀⠀                                       ⢠⣟⣞⣯⢾⣐⢢⢲⣤⡀⣿⠀⠀⠐⢂⢳⣆⠂⠀⣾⠁⢴⡇⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⢨⢃⡔⣿⠀⠀⡇⠃⢿⡍⠓⠷                                    \n");
+            System.out.print("⠀⠀                                           ⣿⣞⡇⣏⠦⣹⡇⠹⣿⡄⠀⠀⠀⠀⠱⣷⣄⡏⡐⢸⡇⠀⠀⢿⠀⠀⠀⠀⠀⢀⠀⠸⠋⠀⢸⠀⢰⡇⢠⢸⡗⠀⠀                                   \n");
+            System.out.print("⠀⠀⠀⠀⠀                                        ⣿⡾⣽⢡⣚⠹⣇⠀⠈⠀⠀⠀⠀⠑⢡⠀⣹⠺⢶⣭⡧⣀⡀⢸⣆⠀⠀⠀⠀⠀⠊⠀⡇⠀⡼⢀⢾⡅⢀⢸⠇⠀⠀                                  \n");
+            System.out.print("⠀⠀⠀      ⠀                                   ⠸⣿⡽⣇⢪⢓⣻⣄⠀⠀⠀⠀⠀⠀⡀⣠⡏⠱⢂⣞⡏⠉⠉⠓⠳⣾⡣⠦⢦⡠⣀⠀⣡⠜⢁⣾⠣⠀⢇⡟⠀⠀⠀                                  \n");
+            System.out.print("⠀⠀⠀       ⠀⠀                                  ⢻⣟⡿⣷⡕⢆⣛⠷⣤⣀⣀⣀⣠⠶⡋⠔⡡⠆⣯⡇⠀⠀⠀⠀⠈⠙⠒⠶⠾⠓⠊⢁⢴⡽⢡⢂⢍⠞⠀⠀⠀⠀                                  \n");
+            System.out.print("⠀⠀⠀⠀     ⠀⠀                                     ⠙⣿⣽⣻⢷⣅⡻⣰⢩⢍⠣⢆⡓⠬⡑⠦⡑⣮⣧⢀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢴⠽⢋⢔⢄⡵⠋⠀⠀⠀⠀⠀                                  \n");
+            System.out.print("⠀⠀⠀⠀⠀      ⠀⠀⠀                                    ⠙⣿⣯⡟⣿⣷⢫⣮⠓⣬⡜⢡⠙⣴⢱⡏⣿⠀⡄⠀⠀⠀⠀⢠⣴⡟⠊⠁⡔⣤⢻⠉⠀⠀⠀⠀⠀⠀⠀                                  \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀        ⠀⠀⠀                                    ⠙⠻⢷⣯⣟⡾⣿⢦⣷⣉⣳⢤⡿⣹⢿⠀⢂⠀⣄⡴⠞⠋⠁⣠⡤⠗⠋⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                          ⠈⠙⠛⠿⣿⣾⣽⣻⣾⣝⣳⢿⢀⡴⠚⠁⠀⡠⠔⡋⠅⠂⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                 \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀⠀                                      ⠉⠛⢷⣯⣟⣯⣿⠎⠀⢀⠴⠋⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                   \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                          ⠈⠻⣯⣿⠀⡰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                    \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                          ⠘⢿⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                     \n");
+            System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                               ⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                    \n" + RESET );
+            System.out.print("======================================================================================================");
+            System.out.println(PURPLE + "=\n\t\t                 MAIN MENU OF MENU-DRIVEN SYSTEM APPLICATION   " + RESET);
+            System.out.println(YELLOW + "=                                          1. CALCULATOR                                              =" + RESET);
+            System.out.println(CYAN + "=                                          2. CONVERSION OF:                                          =" + RESET);
+            System.out.println(BLUE + "=                                             - MM, CM, M                                             =" + RESET);
+            System.out.println(BLUE + "=                                             - ODD AND EVEN                                          =" + RESET);
+            System.out.println(BLUE + "=                                             - AREA AND CIRCUMFERENCE OF A CIRCLE                    =" + RESET);
+            System.out.println(YELLOW + "=                                          3. ABOUT US                                                =" + RESET);
+            System.out.println(CYAN + "=                                          4. EXIT                                                    =" + RESET);
+            System.out.print("=======================================================================================================");
 
-        	System.out.print("================================================================================================");
-            System.out.println(PURPLE + "= =\n\t\t                              MAIN MENU   " + RESET);
-            System.out.println(YELLOW + "=                                          1. CALCULATOR   " + RESET);
-            System.out.println(CYAN + "=                                          2. CONVERSION OF:  " + RESET);
-            System.out.println(BLUE + "=                                             - MM, CM, M" + RESET);
-            System.out.println(BLUE + "=                                             - ODD AND EVEN" + RESET);
-            System.out.println(BLUE + "=                                             - AREA AND CIRCUMFERENCE OF A CIRCLE" + RESET);
-            System.out.println(YELLOW + "=                                          3. ABOUT US" + RESET);
-            System.out.println(CYAN + "=                                          4. EXIT" + RESET);
-            System.out.print("=================================================================================================");
-
-            System.out.print(RED + " ^CHOOSE A NUMBER^: " + RESET);
+            System.out.print(RED + " <Choose a number then enter> : " + RESET);
             choice = input.nextInt();
 
             if (choice == 1) {
-                System.out.println(BLUE+ "~~OPENING CALCULATOR~~" + RESET);
+                System.out.println(BLUE+ "                                       >>>>>.OPENING CALCULATOR.<<<<<" + RESET);
                 for (int i = 0; i < 20; i++) {
                     Thread.sleep(100);
-                    System.out.print(BLUE + "█" + RESET);
+                    System.out.print(BLUE + "█████" + RESET);
                 }
 
                 int calcChoice = -1;
                 while (calcChoice != 0) {
-                    System.out.println(YELLOW + "\n---CALCULATOR---" + RESET);
-                    System.out.println("  1. Start Calculator");
-                    System.out.println("  0. Back to Main Menu");
-                    System.out.print("Enter choice: ");
+                    System.out.println(YELLOW + "\n------------------------------------------------CALCULATOR------------------------------------------" + RESET);
+                    System.out.println(GREEN +"                                           1. Start Calculator");
+                    System.out.println(GREEN +"                                           0. Back to Main Menu");
+                    System.out.print(GREEN +"                                               Pick a number: ");
                     calcChoice = input.nextInt();
 
                     if (calcChoice == 1) {
-                        System.out.print("Enter first number: ");
+                        System.out.print("                                          Enter the first number: ");
                         double num1 = input.nextDouble();
-                        System.out.print("Enter second number: ");
+                        System.out.print("                                          Enter the second number: ");
                         double num2 = input.nextDouble();
-                        System.out.print("Choose operation (+, -, *, /): ");
+                        System.out.print("                                          Choose an operation (+, -, x, ÷): ");
                         char op = input.next().charAt(0);
 
                         double result = 0;
@@ -137,17 +142,17 @@ public class Menu {
                         else if (op == '/') {
                             if (num2 != 0) result = num1 / num2;
                             else {
-                                System.out.println(RED + "Error: Division by zero!" + RESET);
+                                System.out.println(RED + "                                      Error: Division by zero!" + RESET);
                                 continue;
                             }
                         } else {
-                            System.out.println(RED + "Invalid operator!" + RESET);
+                            System.out.println(RED + "                                          x Invalid operator x " + RESET);
                             continue;
                         }
-                        System.out.println(BLUE + "Result = " + result + RESET);
+                        System.out.println(CYAN + "Result = " + result + RESET);
 
                     } else if (calcChoice == 0) {
-                        System.out.println(YELLOW + "Returning to Main Menu..." + RESET);
+                        System.out.println(YELLOW + "                                        Returning back to Main Menu..." + RESET);
                         break;
                     } else {
                         System.out.println(RED + "Invalid choice!" + RESET);
@@ -155,36 +160,36 @@ public class Menu {
                 }
 
             } else if (choice == 2) {
-                System.out.println(GREEN + "OPENING CONVERSION PROGRAM" + RESET);
+                System.out.println(BLUE + "                                      >>>>>.OPENING CONVERSION.<<<<<" + RESET);
                 for (int i = 0; i < 20; i++) {
                     Thread.sleep(100);
-                    System.out.print(GREEN + "█" + RESET);
+                    System.out.print(BLUE + "█████" + RESET);
                 }
 
-                System.out.println(CYAN + "\nAVAILABLE PROGRAMS" + RESET);
-                System.out.println(GREEN + "1. MM, CM, M" + RESET);
-                System.out.println(GREEN + "2. ODD OR EVEN" + RESET);
-                System.out.println(GREEN + "3. AREA AND CIRCUMFERENCE OF A CIRCLE" + RESET);
-                System.out.print(GREEN + "CHOOSE PROGRAM: " + RESET);
+                System.out.println(YELLOW +"\n----------------------------------------------Conversion of:----------------------------------------" + RESET);
+                System.out.println(GREEN + "                                               1. MM, CM, M" + RESET);
+                System.out.println(GREEN + "                                               2. ODD OR EVEN" + RESET);
+                System.out.println(GREEN + "                                               3. AREA AND CIRCUMFERENCE OF A CIRCLE" + RESET);
+                System.out.print(GREEN   + "                                                  ^Choose a number then enter> : " + RESET);
 
                 int sub = input.nextInt();
 
                 if (sub == 1) {
-                    System.out.print(YELLOW + "ENTER VALUE IN MILLIMETERS (mm): " + RESET);
+                    System.out.print(CYAN + "Enter a value in millimeters (mm): " + RESET);
                     double mm = input.nextDouble();
                     double cm = mm / 10;
                     double m = mm / 1000;
                     System.out.println(mm + " mm = " + cm + " cm = " + m + " m");
                 } else if (sub == 2) {
-                    System.out.print(YELLOW + "ENTER A NUMBER: " + RESET);
+                    System.out.print(CYAN + "Enter a number: " + RESET);
                     int num = input.nextInt();
                     if (num % 2 == 0) {
-                        System.out.println(num + " is EVEN");
+                        System.out.println(num + "Incorrect. The number is odd");
                     } else {
-                        System.out.println(num + " is ODD");
+                        System.out.println(num + " is Even");
                     }
                 } else if (sub == 3) {
-                    System.out.print(CYAN + "ENTER RADIUS OF CIRCLE: " + RESET);
+                    System.out.print(CYAN + "Enter radius of the circle: " + RESET);
                     double r = input.nextDouble();
                     double area = Math.PI * r * r;
                     double circumference = 2 * Math.PI * r;
@@ -198,7 +203,7 @@ public class Menu {
                 // ✅ Call the About Us method
                 aboutUs();
             } else if (choice == 4) {
-                System.out.println(RED + "Exiting the application. BABUU!" + RESET);
+                System.out.println(BLUE + "Done exiting. Thank you." + RESET);
                 break;
             } else {
                 System.out.println(RED + "Invalid main menu choice!" + RESET);
@@ -211,27 +216,74 @@ public class Menu {
     // ✅ ABOUT US METHOD
     public static void aboutUs() {
     	
-        System.out.println(RED +"⠀     ⣴⠶⢦⣤⠶⠶⣄⠀⠀⠀⠀");
-        System.out.println("⠀⠀⠀⠀ ⣇⠀  ♥  ⢀⣿⠀⠀⠀⠀");
-        System.out.println("⠀⠀⠀⠀⠀⠀⠙⢧⣄⠀⣠⠞⠁⠀⠀⠀⠀");
-        System.out.println("⠀⠀ ⠀⣀⡀⠀ ⠉⠛ ⣠⣄⡀⠀⠀⠀");
-        System.out.println("⠀⠀⠀⡞⠉⠙⢳⣄⢀⡾⠁⠈⣿⠀⠀⠀");
-        System.out.println("⠀⠀ ⠀⢻⡄⠀ ⠀⠙⢿⡇⠀⢰⠇⠀⠀⠀");
-        System.out.println("⠀⠀⠀⠀⠀⠙⣦⡀  ⠀⠹⣦⡟⠀⠀⠀⠀");
-        System.out.println("⠀⠀⠀⠀⠀⠀  ⠈⢳⣄⠀⠀⠈⠻⣄⠀⠀⠀");
-        System.out.println("⠀⠀⠀⠀⠀  ⠀⡞⠋⠛⢧⡀  ⠀⠘⢷⡀⠀");
-        System.out.println("⠀⠀⠀⢠⡴⠾⣧⡀⠀  ⠀⠹⣦⠀⠀  ⠈⢿⡄");
-        System.out.println("⠀⠀⣀⣿⠀⠀⠈⠻⣄⠀⠀⠀⠀⠀       ⠈⣷");
-        System.out.println("⢠⡟⠉⠛⢷⣄⠀⠀⠈⠀⠀⠀⠀     ⠀  ⠀⣰⠏");
-        System.out.println("⠀⢷⡀⠀⠀⠉⠃⠀⠀⠀⠀⠀⠀       ⠀⠀⣴⠏");
-        System.out.println("  ⠈⠻⣦⡀⠀⠀⠀⠀⠀      ⢀⣠⠞⠁⠀⠀");
-        System.out.println("⠀⠀    ⠈⠙⠶⣤⣤⣤⡤⠶⠋⠁⠀⠀⠀⠀" + RESET);
+        System.out.println(PURPLE +"⠀     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                  \n");
+        System.out.print("                                     ⠀⠀⠀⠀⠀⠀⠀⠀                ⣠⣀⣼⣦⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⣰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢀⣼⣿⣿⣿⣿⣿⡿⠛⠉⠉⠉⠛⢿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢀⣼⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠘⢿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⡟⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠸⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⡟⠀⠸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠙⢿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠈⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠉⢻⣿⣿⣿⣿⣿⣿⣿⡟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢘⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⢸⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢠⣴⣶⣶⣾⣷⣾⣷⣶⣾⣶⣶⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢻⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢾⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣾⣿⣿⣿⣿⣿⣿⣿⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣾⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣻⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀  ⠀   ⣠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀ ⠀    ⣼⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⡀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀ ⠀   ⣼⣿⣿⣿⣿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⡆⠀⠀⠀\n");
+        System.out.print("⠀ ⠀   ⣸⣿⣿⣿⣿⣿⣿⣿⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⡀⠀⠀\n");
+        System.out.print("⠀  ⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀\n");
+        System.out.print("⠀   ⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀\n");
+        System.out.print(" ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀\n");
+        System.out.print(" ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄\n");
+        System.out.print(" ⡏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n");
+        System.out.print("⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⢾⡿⠟⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆\n");
+        System.out.print("⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀\n");
+        System.out.print("⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀\n");
+        System.out.print("⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀\n");
+        System.out.print("⠀⠀⠀⠘⢿⣿⣿⡿⠋⠉⠉⠙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠉⠀⠉⠛⢿⣿⣿⣿⠋⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠈⢻⣿⡇⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⠃⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣤⣀⣀⡀⠀⠀⠀⠀⣰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n");
+        System.out.print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" + RESET );
     	
+        		
+        		
         System.out.println(PURPLE + "\n============================" + RESET);
         System.out.println(PURPLE + "         ABOUT US           " + RESET);
         System.out.println(PURPLE + "============================" + RESET);
 
-        System.out.println("This program was developed by the ABAYLAROO Team.");
+        System.out.println("This program was developed by JavaAnchor.");
         System.out.println("Menu-driven application that offers:");
         System.out.println("- A basic calculator");
         System.out.println("- Unit conversions (mm, cm, m)");
@@ -242,4 +294,3 @@ public class Menu {
         System.out.println(PURPLE + "============================" + RESET);
     }
 }
-
